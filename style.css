@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+  min-width: 160px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 8px;
+    
+
+}
+.main{
+    width : 100%;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    background-image: linear-gradient(#82C26E,#CEE26B,#F4F269);
+    margin-top: 0%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#name{
+    position: relative;
+    padding: 30px  15px;
+    background-image: linear-gradient(#07A3B2, #D9ECC7);
+     border-radius: 5px;
+     box-shadow: 0 15px 30px rgb(58, 55, 55);
+     width:50%;
+     left: 375px;
+     
+}
+#name p{
+    font-weight: 600;
+    font-size:80px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: -webkit-linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+#newtask{
+    position: relative;
+    padding: 30px  15px;
+    width: 50%;
+    left: 375px;
+    background: #fff;
+     border-radius: 5px;
+     box-shadow: 0 15px 30px rgba(0,0,0.3);
+}
+#newtask input{
+    border-radius: 5px;
+    width: 80%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s ease;
+    
+}
+#newtask input:hover{
+    width: 82%;
+    height: 49px;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #90ee90;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    width:120px;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #32cd32;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 22px;
+    
+}
+#newtask button:hover{
+    height: 50px;
+    width: 125px;
+    background-image: linear-gradient(90deg,#7cfc00,#00ff00,#90ee90);
+}
+#tasks{
+  
+    position: relative;
+    margin-top: 40px;
+    width:50%;
+    left: 375px;
+    padding: 30px;
+    border-radius: 5px;
+   
+}
+.tasks{
+    
+    border-radius: 5px;
+    background: #fff;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid #d1d3d4;
+    border-top: 2px solid #d1d3d4;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.task span{
+    font-size: 15px;
+    font-weight:400;
+    cursor: pointer;
+
+}
+
+.task button{
+    border: none;
+    background: #19A6BC;
+    height: 100%;
+    width: 450px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete{
+    border: none;
+    background:#00ff00;
+    height: 100%;
+    width: 50px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.completed{
+    text-decoration: line-through;
+     opacity: 0.8;
+}
